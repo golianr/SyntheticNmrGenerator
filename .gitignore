@@ -3,11 +3,18 @@
 Thumbs.db
 .vscode/
 .idea/
+/nmr_dataset
 
 # env / secrets
 .env
 .env.*
 *.key
+venv/
+.env/
+env/
+.venv/
 
 # logs
 *.log
+.ipynb_checkpoints
+.ipynb
