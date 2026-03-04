@@ -11,6 +11,6 @@ The generator takes peak lists (ppm, intensity) from NMR databases and produces 
 
  - noise
 
-solvent and contaminant peaks
+ - solvent and contaminant peaks
 
 The generated spectra can be exported as images or numerical vectors, making them suitable for training deep learning models (e.g. CNNs) for compound classification or spectral analysis.
