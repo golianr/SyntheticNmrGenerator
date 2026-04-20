@@ -1,99 +1,271 @@
-compound,ppm,intensity,n_neighbors
-acetone,2.17,1.0,0
-ethanol,3.69,0.65,2
-ethanol,1.18,1.0,3
-benzene,7.36,1.0,0
-toluene,7.27,0.45,0
-toluene,7.18,0.45,0
-toluene,2.34,1.0,0
-chloroform,7.26,1.0,0
-methanol,3.34,1.0,0
-methanol,4.87,0.30,0
-dimethyl_sulfoxide,2.50,1.0,0
-acetic_acid,11.40,0.25,0
-acetic_acid,2.10,1.0,0
-diethyl_ether,3.47,0.65,2
-diethyl_ether,1.21,1.0,3
-cyclohexane,1.43,1.0,0
-hexane,0.89,1.0,3
-hexane,1.28,0.80,2
-dichloromethane,5.30,1.0,0
-tetrahydrofuran,3.76,0.65,0
-tetrahydrofuran,1.85,1.0,0
-acetonitrile,2.10,1.0,0
-pyridine,8.57,0.65,0
-pyridine,7.68,0.50,0
-pyridine,7.35,1.0,0
-dimethylformamide,7.95,0.35,0
-dimethylformamide,2.96,0.80,0
-dimethylformamide,2.89,1.0,0
-formic_acid,8.18,1.0,0
-formic_acid,11.10,0.40,0
-propanol,3.58,0.60,2
-propanol,1.57,0.70,2
-propanol,0.94,1.0,2
-isopropanol,3.99,1.0,1
-isopropanol,1.18,0.85,0
-acetaldehyde,9.80,1.0,2
-acetaldehyde,2.20,0.90,1
-ethyl_acetate,4.12,0.65,3
-ethyl_acetate,2.05,1.0,0
-ethyl_acetate,1.26,0.70,3
-propanoic_acid,11.20,0.20,0
-propanoic_acid,2.33,0.75,2
-propanoic_acid,1.12,1.0,3
-nitromethane,4.33,1.0,0
-dioxane,3.71,1.0,0
-trimethylamine,2.26,1.0,0
-glycerol,3.77,0.80,0
-glycerol,3.56,1.0,0
-glycerol,4.75,0.25,0
-ethylene_glycol,3.69,1.0,0
-ethylene_glycol,4.70,0.30,0
-acetophenone,7.96,0.45,0
-acetophenone,7.57,0.30,0
-acetophenone,7.48,0.60,0
-acetophenone,2.59,1.0,0
-benzaldehyde,10.00,1.0,0
-benzaldehyde,7.88,0.55,0
-benzaldehyde,7.65,0.35,0
-benzaldehyde,7.53,0.70,0
-aniline,7.15,0.55,0
-aniline,6.72,0.65,0
-aniline,6.61,1.0,0
-aniline,3.56,0.40,0
-phenol,10.50,0.35,0
-phenol,7.25,0.55,0
-phenol,6.90,0.70,0
-phenol,6.82,1.0,0
-diethylamine,2.59,1.0,2
-diethylamine,1.08,0.90,3
-triethylamine,2.53,1.0,2
-triethylamine,1.03,0.85,3
-furan,7.44,1.0,0
-furan,6.33,0.65,0
-thiophene,7.19,0.70,0
-thiophene,6.98,1.0,0
-thiophene,7.26,0.55,0
-styrene,7.35,0.55,0
-styrene,6.68,1.0,1
-styrene,5.71,0.65,1
-styrene,5.22,0.60,1
-vinyl_acetate,4.83,0.65,1
-vinyl_acetate,4.60,0.60,1
-vinyl_acetate,2.13,1.0,0
-caffeine,7.52,0.40,0
-caffeine,3.99,0.85,0
-caffeine,3.86,0.80,0
-caffeine,3.59,1.00,0
-glucose,5.17,1.00,0
-glucose,3.84,0.70,0
-glucose,3.71,0.75,0
-glucose,3.46,0.65,0
-citric_acid,11.20,0.30,0
-citric_acid,2.67,1.00,0
-citric_acid,2.54,0.90,0
-p_xylene,7.11,1.00,0
-p_xylene,2.30,0.90,0
-chlorobenzene,7.33,0.70,0
-chlorobenzene,7.28,1.00,0
+compound,ppm,intensity,n_neighbors,nucleus,integral_protons,equivalent_nuclei,multiplicity_model,multiplicity_true,exchangeable,generator_include_default,reference_solvent,temperature_c,shift_min_ppm,shift_max_ppm,j_hz_typical,functional_group,attached_atom,attached_carbon_shift_ppm,attached_carbon_hybridization,formula,smiles,data_origin,confidence,notes,carbon_type,attached_h_count,quantitative_intensity_reliable
+acetaldehyde,9.77,0.333,3,1H,1.0,1,q,q,False,True,CDCl3,25,9.7,9.84,2.2,aldehyde H,C,200.8,sp2,C2H4O,CC=O,curated_literature_typical,high,,,,
+acetaldehyde,2.22,1.0,1,1H,3.0,3,d,d,False,True,CDCl3,25,2.17,2.27,2.2,methyl next to aldehyde,C,30.4,sp3,C2H4O,CC=O,curated_literature_typical,high,,,,
+acetic_acid,2.1,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.05,2.13,,methyl next to carboxyl,C,20.9,sp3,C2H4O2,CC(=O)O,curated_literature_typical,high,,,,
+acetone,2.17,1.0,0,1H,6.0,6,s,s,False,True,CDCl3,25,2.13,2.22,,methyl ketone,C,29.8,sp3,C3H6O,CC(=O)C,curated_literature_typical,high,,,,
+acetonitrile,2.1,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.06,2.14,,CH3-CN,C,1.2,sp3,C2H3N,CC#N,curated_literature_typical,high,,,,
+acetophenone,7.95,0.667,0,1H,2.0,2,d,d,False,True,CDCl3,25,7.9,8.0,,ortho aromatic H,C,128.5,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,,,
+acetophenone,7.57,0.333,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.52,7.62,,para aromatic H,C,133.0,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,,,
+acetophenone,7.47,0.667,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.41,7.52,,meta aromatic H,C,128.4,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,,,
+acetophenone,2.6,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.55,2.64,,acetyl CH3,C,26.7,sp3,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,,,
+aniline,7.14,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.08,7.2,,meta aromatic H,C,129.1,sp2,C6H7N,Nc1ccccc1,curated_literature_typical,high,,,,
+aniline,6.73,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,6.67,6.79,,para aromatic H,C,115.0,sp2,C6H7N,Nc1ccccc1,curated_literature_typical,high,,,,
+aniline,6.67,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,6.6,6.74,,ortho aromatic H,C,118.2,sp2,C6H7N,Nc1ccccc1,curated_literature_typical,high,,,,
+anisole,7.27,0.667,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.2,7.34,,meta aromatic H,C,129.4,sp2,C7H8O,COc1ccccc1,curated_literature_typical,high,,,,
+anisole,6.91,0.667,0,1H,2.0,2,d,d,False,True,CDCl3,25,6.84,6.97,,ortho aromatic H,C,114.0,sp2,C7H8O,COc1ccccc1,curated_literature_typical,high,,,,
+anisole,6.87,0.333,0,1H,1.0,1,t,t,False,True,CDCl3,25,6.81,6.93,,para aromatic H,C,121.2,sp2,C7H8O,COc1ccccc1,curated_literature_typical,high,,,,
+anisole,3.8,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,3.76,3.84,,O-CH3,C,55.4,sp3,C7H8O,COc1ccccc1,curated_literature_typical,high,,,,
+benzaldehyde,10.02,0.5,0,1H,1.0,1,s,s,False,True,CDCl3,25,9.96,10.08,,aldehyde H,C,192.1,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,,,
+benzaldehyde,7.88,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,7.82,7.93,,ortho aromatic H,C,129.8,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,,,
+benzaldehyde,7.65,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.6,7.71,,para aromatic H,C,134.6,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,,,
+benzaldehyde,7.54,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.48,7.6,,meta aromatic H,C,129.1,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,,,
+benzene,7.36,1.0,0,1H,6.0,6,s,s,False,True,CDCl3,25,7.33,7.38,,aromatic CH,C,128.5,sp2,C6H6,c1ccccc1,curated_literature_typical,high,,,,
+benzonitrile,7.67,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,7.61,7.73,,ortho aromatic H,C,132.5,sp2,C7H5N,N#Cc1ccccc1,curated_literature_typical,high,,,,
+benzonitrile,7.54,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.48,7.6,,para aromatic H,C,133.0,sp2,C7H5N,N#Cc1ccccc1,curated_literature_typical,high,,,,
+benzonitrile,7.43,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.37,7.49,,meta aromatic H,C,129.1,sp2,C7H5N,N#Cc1ccccc1,curated_literature_typical,high,,,,
+bromobenzene,7.48,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,7.41,7.54,,ortho aromatic H,C,131.3,sp2,C6H5Br,Brc1ccccc1,curated_literature_typical,high,,,,
+bromobenzene,7.2,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.14,7.26,,meta aromatic H,C,128.4,sp2,C6H5Br,Brc1ccccc1,curated_literature_typical,high,,,,
+bromobenzene,7.08,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.02,7.14,,para aromatic H,C,120.3,sp2,C6H5Br,Brc1ccccc1,curated_literature_typical,high,,,,
+chlorobenzene,7.34,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,7.28,7.4,,ortho aromatic H,C,129.0,sp2,C6H5Cl,Clc1ccccc1,curated_literature_typical,high,,,,
+chlorobenzene,7.28,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.22,7.34,,meta aromatic H,C,128.6,sp2,C6H5Cl,Clc1ccccc1,curated_literature_typical,high,,,,
+chlorobenzene,7.18,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.12,7.24,,para aromatic H,C,126.4,sp2,C6H5Cl,Clc1ccccc1,curated_literature_typical,high,,,,
+chloroform,7.26,1.0,0,1H,1.0,1,s,s,False,True,CDCl3,25,7.24,7.28,,trihalomethane CH,C,77.2,sp3,CHCl3,ClC(Cl)Cl,curated_literature_typical,high,,,,
+cumene,7.2,0.833,0,1H,5.0,5,m,m,False,True,CDCl3,25,7.12,7.28,,aromatic CH,C,128.0,sp2,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,,,
+cumene,2.91,0.167,6,1H,1.0,1,sept,sept,False,True,CDCl3,25,2.85,2.97,6.9,benzylic methine,C,34.2,sp3,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,,,
+cumene,1.24,1.0,1,1H,6.0,6,d,d,False,True,CDCl3,25,1.18,1.3,6.9,isopropyl CH3,C,24.0,sp3,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,,,
+cyclohexane,1.43,1.0,0,1H,12.0,12,br s,br s,False,True,CDCl3,25,1.39,1.47,,cycloalkane CH2,C,27.1,sp3,C6H12,C1CCCCC1,curated_literature_typical,high,,,,
+dichloromethane,5.32,1.0,0,1H,2.0,2,s,s,False,True,CDCl3,25,5.28,5.36,,CH2Cl2,C,53.8,sp3,CH2Cl2,ClCCl,curated_literature_typical,high,,,,
+diethyl_ether,3.43,0.667,3,1H,4.0,4,q,q,False,True,CDCl3,25,3.39,3.47,7.0,CH2-O,C,66.0,sp3,C4H10O,CCOCC,curated_literature_typical,high,,,,
+diethyl_ether,1.18,1.0,2,1H,6.0,6,t,t,False,True,CDCl3,25,1.13,1.23,7.0,alkyl CH3,C,15.4,sp3,C4H10O,CCOCC,curated_literature_typical,high,,,,
+diethylamine,2.58,0.667,3,1H,4.0,4,q,q,False,True,CDCl3,25,2.51,2.64,7.2,CH2-N,C,47.0,sp3,C4H11N,CCNCC,curated_literature_typical,high,,,,
+diethylamine,1.06,1.0,2,1H,6.0,6,t,t,False,True,CDCl3,25,1.0,1.12,7.2,terminal CH3,C,12.8,sp3,C4H11N,CCNCC,curated_literature_typical,high,,,,
+dimethyl_ether,3.28,1.0,0,1H,6.0,6,s,s,False,True,CDCl3,25,3.23,3.33,,O-CH3,C,58.4,sp3,C2H6O,COC,curated_literature_typical,high,,,,
+dimethyl_sulfoxide,2.5,1.0,0,1H,6.0,6,s,s,False,True,CDCl3,25,2.46,2.54,,S(O)-CH3,C,39.5,sp3,C2H6OS,CS(=O)C,curated_literature_typical,high,,,,
+dimethylformamide,8.02,0.333,0,1H,1.0,1,s,s,False,True,CDCl3,25,7.96,8.08,,formyl H,C,163.1,sp2,C3H7NO,CN(C)C=O,curated_literature_typical,high,,,,
+dimethylformamide,2.97,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.92,3.02,,N-CH3 rotamer A,C,35.8,sp3,C3H7NO,CN(C)C=O,curated_literature_typical,high,Room-temperature rotamer-separated signal,,,
+dimethylformamide,2.88,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.83,2.93,,N-CH3 rotamer B,C,30.1,sp3,C3H7NO,CN(C)C=O,curated_literature_typical,high,Room-temperature rotamer-separated signal,,,
+dioxane,3.75,1.0,0,1H,8.0,8,s,s,False,True,CDCl3,25,3.71,3.79,,O-CH2,C,67.0,sp3,C4H8O2,O1CCOCC1,curated_literature_typical,high,,,,
+ethanol,3.66,0.667,3,1H,2.0,2,q,q,False,True,CDCl3,25,3.61,3.71,7.1,CH2-O,C,58.3,sp3,C2H6O,CCO,curated_literature_typical,high,,,,
+ethanol,1.18,1.0,2,1H,3.0,3,t,t,False,True,CDCl3,25,1.12,1.23,7.1,alkyl CH3,C,18.4,sp3,C2H6O,CCO,curated_literature_typical,high,,,,
+ethyl_acetate,4.12,0.667,3,1H,2.0,2,q,q,False,True,CDCl3,25,4.07,4.16,7.1,O-CH2,C,60.3,sp3,C4H8O2,CCOC(=O)C,curated_literature_typical,high,,,,
+ethyl_acetate,2.05,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.01,2.09,,acetyl CH3,C,20.8,sp3,C4H8O2,CCOC(=O)C,curated_literature_typical,high,,,,
+ethyl_acetate,1.26,1.0,2,1H,3.0,3,t,t,False,True,CDCl3,25,1.21,1.3,7.1,terminal CH3,C,14.2,sp3,C4H8O2,CCOC(=O)C,curated_literature_typical,high,,,,
+ethylbenzene,7.2,1.0,0,1H,5.0,5,m,m,False,True,CDCl3,25,7.12,7.29,,aromatic CH,C,128.5,sp2,C8H10,CCc1ccccc1,curated_literature_typical,high,,,,
+ethylbenzene,2.62,0.4,3,1H,2.0,2,q,q,False,True,CDCl3,25,2.56,2.68,7.5,benzylic CH2,C,28.7,sp3,C8H10,CCc1ccccc1,curated_literature_typical,high,,,,
+ethylbenzene,1.2,0.6,2,1H,3.0,3,t,t,False,True,CDCl3,25,1.14,1.26,7.5,terminal CH3,C,15.6,sp3,C8H10,CCc1ccccc1,curated_literature_typical,high,,,,
+formic_acid,8.12,1.0,0,1H,1.0,1,s,s,False,True,DMSO-d6,25,8.05,8.2,,formyl H of carboxylic acid,C,171.0,sp2,CH2O2,O=CO,curated_literature_typical,high,,,,
+furan,7.36,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,7.28,7.44,,alpha furan H,C,142.7,sp2,C4H4O,o1cccc1,curated_literature_typical,high,,,,
+furan,6.33,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,6.25,6.4,,beta furan H,C,110.5,sp2,C4H4O,o1cccc1,curated_literature_typical,high,,,,
+hexane,1.27,1.0,0,1H,8.0,8,m,m,False,True,CDCl3,25,1.23,1.36,,internal CH2,C,22.7,sp3,C6H14,CCCCCC,curated_literature_typical,high,Collapsed internal methylene region,,,
+hexane,0.88,0.75,2,1H,6.0,6,t,t,False,True,CDCl3,25,0.84,0.92,7.0,terminal CH3,C,14.1,sp3,C6H14,CCCCCC,curated_literature_typical,high,,,,
+isopropanol,3.92,0.167,6,1H,1.0,1,sept,sept,False,True,CDCl3,25,3.86,3.98,6.2,CHOH methine,C,67.0,sp3,C3H8O,CC(O)C,curated_literature_typical,high,,,,
+isopropanol,1.17,1.0,1,1H,6.0,6,d,d,False,True,CDCl3,25,1.12,1.22,6.2,isopropyl CH3,C,24.7,sp3,C3H8O,CC(O)C,curated_literature_typical,high,,,,
+mesitylene,6.81,0.333,0,1H,3.0,3,s,s,False,True,CDCl3,25,6.76,6.86,,aromatic CH,C,128.9,sp2,C9H12,Cc1cc(C)cc(C)c1,curated_literature_typical,high,,,,
+mesitylene,2.3,1.0,0,1H,9.0,9,s,s,False,True,CDCl3,25,2.25,2.35,,aryl CH3,C,21.1,sp3,C9H12,Cc1cc(C)cc(C)c1,curated_literature_typical,high,,,,
+methanol,3.49,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,3.44,3.54,,O-CH3,C,49.0,sp3,CH4O,CO,curated_literature_typical,high,,,,
+methyl_acetate,3.67,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,3.62,3.72,,O-CH3,C,51.6,sp3,C3H6O2,COC(=O)C,curated_literature_typical,high,,,,
+methyl_acetate,2.06,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.01,2.1,,acetyl CH3,C,20.8,sp3,C3H6O2,COC(=O)C,curated_literature_typical,high,,,,
+methyl_benzoate,8.05,0.667,0,1H,2.0,2,d,d,False,True,CDCl3,25,7.99,8.11,,ortho aromatic H,C,129.7,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,,,
+methyl_benzoate,7.58,0.333,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.52,7.64,,para aromatic H,C,133.3,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,,,
+methyl_benzoate,7.46,0.667,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.4,7.52,,meta aromatic H,C,128.8,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,,,
+methyl_benzoate,3.91,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,3.86,3.96,,O-CH3,C,52.2,sp3,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,,,
+methyl_formate,8.1,0.333,0,1H,1.0,1,s,s,False,True,CDCl3,25,8.04,8.16,,formyl H,C,160.8,sp2,C2H4O2,COC=O,curated_literature_typical,high,,,,
+methyl_formate,3.75,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,3.7,3.8,,O-CH3,C,53.4,sp3,C2H4O2,COC=O,curated_literature_typical,high,,,,
+nitrobenzene,8.18,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,8.11,8.25,,ortho aromatic H,C,129.4,sp2,C6H5NO2,O=[N+]([O-])c1ccccc1,curated_literature_typical,high,,,,
+nitrobenzene,7.65,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.58,7.72,,para aromatic H,C,134.5,sp2,C6H5NO2,O=[N+]([O-])c1ccccc1,curated_literature_typical,high,,,,
+nitrobenzene,7.5,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.43,7.57,,meta aromatic H,C,123.6,sp2,C6H5NO2,O=[N+]([O-])c1ccccc1,curated_literature_typical,high,,,,
+nitromethane,4.33,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,4.28,4.38,,CH3-NO2,C,62.9,sp3,CH3NO2,C[N+](=O)[O-],curated_literature_typical,high,,,,
+p_xylene,7.08,0.667,0,1H,4.0,4,s,s,False,True,CDCl3,25,7.02,7.14,,aromatic CH,C,129.0,sp2,C8H10,Cc1ccc(C)cc1,curated_literature_typical,high,,,,
+p_xylene,2.3,1.0,0,1H,6.0,6,s,s,False,True,CDCl3,25,2.25,2.35,,aryl CH3,C,21.2,sp3,C8H10,Cc1ccc(C)cc1,curated_literature_typical,high,,,,
+phenol,7.2,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.14,7.27,,meta aromatic H,C,129.6,sp2,C6H6O,Oc1ccccc1,curated_literature_typical,high,,,,
+phenol,6.93,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,6.87,6.99,,para aromatic H,C,121.0,sp2,C6H6O,Oc1ccccc1,curated_literature_typical,high,,,,
+phenol,6.87,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,6.8,6.94,,ortho aromatic H,C,115.7,sp2,C6H6O,Oc1ccccc1,curated_literature_typical,high,,,,
+propanoic_acid,2.34,0.667,2,1H,2.0,2,q,q,False,True,CDCl3,25,2.28,2.39,7.5,CH2 alpha to carboxyl,C,30.4,sp3,C3H6O2,CCC(=O)O,curated_literature_typical,high,,,,
+propanoic_acid,1.1,1.0,2,1H,3.0,3,t,t,False,True,CDCl3,25,1.04,1.16,7.5,terminal CH3,C,9.4,sp3,C3H6O2,CCC(=O)O,curated_literature_typical,high,,,,
+propanol,3.6,0.667,2,1H,2.0,2,t,t,False,True,CDCl3,25,3.54,3.66,6.7,CH2-O,C,63.1,sp3,C3H8O,CCCO,curated_literature_typical,high,,,,
+propanol,1.58,0.667,5,1H,2.0,2,sext,sext,False,True,CDCl3,25,1.48,1.68,7.0,middle CH2,C,22.7,sp3,C3H8O,CCCO,curated_literature_typical,high,,,,
+propanol,0.93,1.0,2,1H,3.0,3,t,t,False,True,CDCl3,25,0.88,0.98,7.4,terminal CH3,C,10.5,sp3,C3H8O,CCCO,curated_literature_typical,high,,,,
+pyridine,8.6,1.0,0,1H,2.0,2,d,d,False,True,CDCl3,25,8.52,8.68,,H2/H6 pyridine,C,150.1,sp2,C5H5N,n1ccccc1,curated_literature_typical,high,,,,
+pyridine,7.74,0.5,0,1H,1.0,1,t,t,False,True,CDCl3,25,7.66,7.82,,H4 pyridine,C,136.4,sp2,C5H5N,n1ccccc1,curated_literature_typical,high,,,,
+pyridine,7.33,1.0,0,1H,2.0,2,t,t,False,True,CDCl3,25,7.25,7.42,,H3/H5 pyridine,C,123.8,sp2,C5H5N,n1ccccc1,curated_literature_typical,high,,,,
+styrene,7.25,1.0,0,1H,5.0,5,m,m,False,True,CDCl3,25,7.17,7.35,,aromatic CH,C,128.5,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,,,
+styrene,6.69,0.2,0,1H,1.0,1,dd,dd,False,True,CDCl3,25,6.62,6.75,,vinyl CH,C,136.5,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,,,
+styrene,5.73,0.2,0,1H,1.0,1,d,d,False,True,CDCl3,25,5.66,5.8,,vinyl CH2 trans,C,114.1,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,,,
+styrene,5.23,0.2,0,1H,1.0,1,d,d,False,True,CDCl3,25,5.17,5.29,,vinyl CH2 cis,C,114.1,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,,,
+tert_butyl_methyl_ether,3.22,0.333,0,1H,3.0,3,s,s,False,True,CDCl3,25,3.17,3.27,,O-CH3,C,48.5,sp3,C5H12O,COC(C)(C)C,curated_literature_typical,high,,,,
+tert_butyl_methyl_ether,1.19,1.0,0,1H,9.0,9,s,s,False,True,CDCl3,25,1.14,1.24,,tert-butyl CH3,C,28.0,sp3,C5H12O,COC(C)(C)C,curated_literature_typical,high,,,,
+tetrahydrofuran,3.76,1.0,0,1H,4.0,4,m,m,False,True,CDCl3,25,3.7,3.82,,O-CH2,C,67.7,sp3,C4H8O,C1CCOC1,curated_literature_typical,high,,,,
+tetrahydrofuran,1.85,1.0,0,1H,4.0,4,m,m,False,True,CDCl3,25,1.78,1.92,,beta-CH2 to O,C,25.7,sp3,C4H8O,C1CCOC1,curated_literature_typical,high,,,,
+thiophene,7.27,1.0,0,1H,2.0,2,dd,dd,False,True,CDCl3,25,7.2,7.34,,alpha thiophene H,C,126.8,sp2,C4H4S,s1cccc1,curated_literature_typical,high,,,,
+thiophene,7.0,1.0,0,1H,2.0,2,dd,dd,False,True,CDCl3,25,6.93,7.07,,beta thiophene H,C,124.8,sp2,C4H4S,s1cccc1,curated_literature_typical,high,,,,
+toluene,7.18,1.0,0,1H,5.0,5,m,m,False,True,CDCl3,25,7.08,7.27,,aromatic CH,C,128.5,sp2,C7H8,Cc1ccccc1,curated_literature_typical,high,Collapsed monosubstituted aromatic region for generator compatibility,,,
+toluene,2.34,0.6,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.3,2.38,,benzylic CH3,C,21.2,sp3,C7H8,Cc1ccccc1,curated_literature_typical,high,,,,
+triethylamine,2.53,0.667,3,1H,6.0,6,q,q,False,True,CDCl3,25,2.46,2.6,7.2,CH2-N,C,47.1,sp3,C6H15N,CCN(CC)CC,curated_literature_typical,high,,,,
+triethylamine,1.03,1.0,2,1H,9.0,9,t,t,False,True,CDCl3,25,0.97,1.09,7.2,terminal CH3,C,8.6,sp3,C6H15N,CCN(CC)CC,curated_literature_typical,high,,,,
+trimethylamine,2.26,1.0,0,1H,9.0,9,s,s,False,True,CDCl3,25,2.21,2.31,,N-CH3,C,45.3,sp3,C3H9N,CN(C)C,curated_literature_typical,high,,,,
+vinyl_acetate,6.33,0.333,0,1H,1.0,1,dd,dd,False,True,CDCl3,25,6.25,6.4,,vinyl CH-OAc,C,140.0,sp2,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,,,
+vinyl_acetate,4.82,0.333,0,1H,1.0,1,dd,dd,False,True,CDCl3,25,4.75,4.89,,vinyl CH2 trans,C,97.5,sp3,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,,,
+vinyl_acetate,4.55,0.333,0,1H,1.0,1,dd,dd,False,True,CDCl3,25,4.48,4.62,,vinyl CH2 cis,C,97.5,sp3,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,,,
+vinyl_acetate,2.05,1.0,0,1H,3.0,3,s,s,False,True,CDCl3,25,2.0,2.1,,acetyl CH3,C,20.8,sp3,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,,,
+acetic_acid,11.4,0.333,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,10.5,12.5,,carboxylic acid OH,O,,,C2H4O2,CC(=O)O,curated_literature_typical,medium,,,,
+aniline,3.6,1.0,0,1H,2.0,2,br s,br s,True,False,CDCl3,25,3.0,5.0,,aniline NH2,N,,,C6H7N,Nc1ccccc1,curated_literature_typical,medium,,,,
+caffeine,7.9,0.167,0,1H,1.0,1,s,s,False,True,DMSO-d6,25,7.75,8.05,,C8-H,C,107.6,sp2,C8H10N4O2,Cn1c(=O)n(C)c2ncn(C)c2c1=O,curated_literature_typical,medium,,,,
+caffeine,3.93,0.5,0,1H,3.0,3,s,s,False,True,DMSO-d6,25,3.8,4.05,,N-CH3,C,33.6,sp3,C8H10N4O2,Cn1c(=O)n(C)c2ncn(C)c2c1=O,curated_literature_typical,medium,,,,
+caffeine,3.55,1.0,0,1H,6.0,6,s,s,False,True,DMSO-d6,25,3.4,3.68,,N-CH3 pair,C,29.6,sp3,C8H10N4O2,Cn1c(=O)n(C)c2ncn(C)c2c1=O,curated_literature_typical,medium,Collapsed two similar N-methyl signals for noise-robust use,,,
+citric_acid,11.2,1.0,0,1H,3.0,3,br s,br s,True,False,DMSO-d6,25,10.5,13.0,,carboxylic acid OH,O,,,C6H8O7,OC(=O)CC(O)(CC(=O)O)C(=O)O,curated_literature_typical,low,,,,
+citric_acid,2.67,0.667,0,1H,2.0,2,d,d,False,True,DMSO-d6,25,2.55,2.79,,diastereotopic CH2 A,C,44.0,sp3,C6H8O7,OC(=O)CC(O)(CC(=O)O)C(=O)O,curated_literature_typical,low,,,,
+citric_acid,2.54,0.667,0,1H,2.0,2,d,d,False,True,DMSO-d6,25,2.42,2.66,,diastereotopic CH2 B,C,44.0,sp3,C6H8O7,OC(=O)CC(O)(CC(=O)O)C(=O)O,curated_literature_typical,low,,,,
+diethylamine,1.2,0.167,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,0.5,2.5,,amine NH,N,,,C4H11N,CCNCC,curated_literature_typical,medium,,,,
+ethanol,1.5,0.333,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,0.8,2.5,,alcohol OH,O,,,C2H6O,CCO,curated_literature_typical,medium,Strongly solvent/concentration dependent,,,
+ethylene_glycol,4.7,0.5,0,1H,2.0,2,br s,br s,True,False,DMSO-d6,25,3.5,5.5,,alcohol OH,O,,,C2H6O2,OCCO,curated_literature_typical,low,,,,
+ethylene_glycol,3.69,1.0,0,1H,4.0,4,s,s,False,True,DMSO-d6,25,3.6,3.78,,CH2-O,C,61.0,sp3,C2H6O2,OCCO,curated_literature_typical,medium,Collapsed equivalent CH2 signal; solvent dependent,,,
+formic_acid,11.1,1.0,0,1H,1.0,1,br s,br s,True,False,DMSO-d6,25,10.5,12.5,,carboxylic acid OH,O,,,CH2O2,O=CO,curated_literature_typical,medium,,,,
+glucose,5.2,0.2,0,1H,1.0,1,d,d,False,True,DMSO-d6,25,4.9,5.4,,anomeric H,C,92.5,sp3,C6H12O6,OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O,curated_literature_typical,low,Mixture of anomers/solvent dependence likely,,,
+glucose,3.75,1.0,0,1H,5.0,5,m,m,False,True,DMSO-d6,25,3.2,4.0,,O-CH/O-CH2 region,C,72.0,sp3,C6H12O6,OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O,curated_literature_typical,low,Collapsed sugar ring proton region,,,
+glycerol,4.75,0.75,0,1H,3.0,3,br s,br s,True,False,DMSO-d6,25,3.5,5.8,,alcohol OH,O,,,C3H8O3,OCC(O)CO,curated_literature_typical,low,,,,
+glycerol,3.77,0.25,0,1H,1.0,1,m,m,False,True,DMSO-d6,25,3.65,3.89,,CHOH,C,72.5,sp3,C3H8O3,OCC(O)CO,curated_literature_typical,medium,,,,
+glycerol,3.56,1.0,0,1H,4.0,4,m,m,False,True,DMSO-d6,25,3.45,3.68,,CH2-O,C,63.5,sp3,C3H8O3,OCC(O)CO,curated_literature_typical,medium,,,,
+isopropanol,1.95,0.167,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,0.8,2.5,,alcohol OH,O,,,C3H8O,CC(O)C,curated_literature_typical,medium,,,,
+methanol,4.87,0.333,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,2.0,5.2,,alcohol OH,O,,,CH4O,CO,curated_literature_typical,medium,Very solvent dependent; value here matches common CD3OD/H2O reference-like behavior,,,
+phenol,5.5,0.5,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,4.0,7.5,,phenol OH,O,,,C6H6O,Oc1ccccc1,curated_literature_typical,medium,,,,
+propanoic_acid,11.2,0.333,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,10.5,12.5,,carboxylic acid OH,O,,,C3H6O2,CCC(=O)O,curated_literature_typical,medium,,,,
+propanol,1.7,0.333,0,1H,1.0,1,br s,br s,True,False,CDCl3,25,0.8,2.5,,alcohol OH,O,,,C3H8O,CCCO,curated_literature_typical,medium,,,,
+acetaldehyde,200.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,199.3,202.3,,aldehyde carbonyl carbon,C,200.8,sp2,C2H4O,CC=O,curated_literature_typical,high,,CH,1.0,False
+acetaldehyde,30.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,28.9,31.9,,methyl next to aldehyde,C,30.4,sp3,C2H4O,CC=O,curated_literature_typical,high,,CH3,3.0,False
+acetic_acid,178.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,177.1,180.1,,carboxylic acid carbonyl,C,178.6,sp2,C2H4O2,CC(=O)O,curated_literature_typical,high,,quaternary,0.0,False
+acetic_acid,20.9,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,19.4,22.4,,methyl next to carboxyl,C,20.9,sp3,C2H4O2,CC(=O)O,curated_literature_typical,high,,CH3,3.0,False
+acetone,206.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,205.2,208.2,,ketone carbonyl,C,206.7,sp2,C3H6O,CC(=O)C,curated_literature_typical,high,,quaternary,0.0,False
+acetone,29.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,28.3,31.3,,methyl ketone carbon,C,29.8,sp3,C3H6O,CC(=O)C,curated_literature_typical,high,,CH3,3.0,False
+acetonitrile,118.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,117.2,120.2,,nitrile carbon,C,118.7,sp2,C2H3N,CC#N,curated_literature_typical,high,,quaternary,0.0,False
+acetonitrile,1.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,-0.3,2.7,,CH3-CN,C,1.2,sp3,C2H3N,CC#N,curated_literature_typical,high,,CH3,3.0,False
+acetophenone,197.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,196.2,199.2,,ketone carbonyl,C,197.7,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+acetophenone,136.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,135.2,138.2,,ipso aromatic C,C,136.7,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+acetophenone,133.0,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,131.5,134.5,,para aromatic CH,C,133.0,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+acetophenone,128.5,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.0,130.0,,ortho aromatic CH,C,128.5,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+acetophenone,128.4,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,126.9,129.9,,meta aromatic CH,C,128.4,sp2,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+acetophenone,26.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,25.2,28.2,,acetyl CH3,C,26.7,sp3,C8H8O,CC(=O)c1ccccc1,curated_literature_typical,high,,CH3,3.0,False
+aniline,146.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,144.7,147.7,,ipso C-N,C,146.2,sp2,C6H7N,Nc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+aniline,129.1,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.6,130.6,,meta aromatic CH,C,129.1,sp2,C6H7N,Nc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+aniline,118.2,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,116.7,119.7,,ortho aromatic CH,C,118.2,sp2,C6H7N,Nc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+aniline,115.0,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,113.5,116.5,,para aromatic CH,C,115.0,sp2,C6H7N,Nc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+anisole,159.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,157.9,160.9,,ipso C-O,C,159.4,sp2,C7H8O,COc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+anisole,129.4,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.9,130.9,,meta aromatic CH,C,129.4,sp2,C7H8O,COc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+anisole,121.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,119.7,122.7,,para aromatic CH,C,121.2,sp2,C7H8O,COc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+anisole,114.0,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,112.5,115.5,,ortho aromatic CH,C,114.0,sp2,C7H8O,COc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+anisole,55.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,53.9,56.9,,O-CH3,C,55.4,sp3,C7H8O,COc1ccccc1,curated_literature_typical,high,,CH3,3.0,False
+benzaldehyde,192.1,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,190.6,193.6,,aldehyde carbonyl carbon,C,192.1,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+benzaldehyde,136.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,134.9,137.9,,ipso aromatic C,C,136.4,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+benzaldehyde,134.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,133.1,136.1,,para aromatic CH,C,134.6,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+benzaldehyde,129.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,128.3,131.3,,ortho aromatic CH,C,129.8,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+benzaldehyde,129.1,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.6,130.6,,meta aromatic CH,C,129.1,sp2,C7H6O,O=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+benzene,128.5,1.0,0,13C,,6,s,decoupled,False,False,CDCl3,25,127.0,130.0,,aromatic CH,C,128.5,sp2,C6H6,c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+bromobenzene,131.3,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,129.8,132.8,,ortho aromatic CH,C,131.3,sp2,C6H5Br,Brc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+bromobenzene,128.4,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,126.9,129.9,,meta aromatic CH,C,128.4,sp2,C6H5Br,Brc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+bromobenzene,122.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,121.0,124.0,,ipso C-Br,C,122.5,sp2,C6H5Br,Brc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+bromobenzene,120.3,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,118.8,121.8,,para aromatic CH,C,120.3,sp2,C6H5Br,Brc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+chlorobenzene,133.3,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,131.8,134.8,,ipso C-Cl,C,133.3,sp2,C6H5Cl,Clc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+chlorobenzene,129.0,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.5,130.5,,ortho aromatic CH,C,129.0,sp2,C6H5Cl,Clc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+chlorobenzene,128.6,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.1,130.1,,meta aromatic CH,C,128.6,sp2,C6H5Cl,Clc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+chlorobenzene,126.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,124.9,127.9,,para aromatic CH,C,126.4,sp2,C6H5Cl,Clc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+chloroform,77.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,75.7,78.7,,trihalomethane carbon,C,77.2,sp3,CHCl3,ClC(Cl)Cl,curated_literature_typical,high,,CH,1.0,False
+cumene,148.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,147.0,150.0,,ipso aromatic C,C,148.5,sp2,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+cumene,128.0,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,126.5,129.5,,meta aromatic CH,C,128.0,sp2,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+cumene,126.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,125.3,128.3,,ortho aromatic CH,C,126.8,sp2,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+cumene,125.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,124.0,127.0,,para aromatic CH,C,125.5,sp2,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+cumene,34.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,32.7,35.7,,benzylic methine,C,34.2,sp3,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+cumene,24.0,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,22.5,25.5,,isopropyl CH3,C,24.0,sp3,C9H12,CC(C)c1ccccc1,curated_literature_typical,high,,CH3,3.0,False
+cyclohexane,27.1,1.0,0,13C,,6,s,decoupled,False,False,CDCl3,25,25.6,28.6,,cyclohexane CH2,C,27.1,sp3,C6H12,C1CCCCC1,curated_literature_typical,high,,CH2,2.0,False
+dichloromethane,53.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,52.3,55.3,,CH2Cl2,C,53.8,sp3,CH2Cl2,ClCCl,curated_literature_typical,high,,CH2,2.0,False
+diethyl_ether,66.0,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,64.5,67.5,,CH2-O,C,66.0,sp3,C4H10O,CCOCC,curated_literature_typical,high,,CH2,2.0,False
+diethyl_ether,15.4,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,13.9,16.9,,alkyl CH3,C,15.4,sp3,C4H10O,CCOCC,curated_literature_typical,high,,CH3,3.0,False
+diethylamine,47.0,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,45.5,48.5,,CH2-N,C,47.0,sp3,C4H11N,CCNCC,curated_literature_typical,high,,CH2,2.0,False
+diethylamine,12.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,11.3,14.3,,terminal CH3,C,12.8,sp3,C4H11N,CCNCC,curated_literature_typical,high,,CH3,3.0,False
+dimethyl_ether,58.4,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,56.9,59.9,,O-CH3,C,58.4,sp3,C2H6O,COC,curated_literature_typical,high,,CH3,3.0,False
+dimethyl_sulfoxide,39.5,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,38.0,41.0,,S(O)-CH3,C,39.5,sp3,C2H6OS,CS(=O)C,curated_literature_typical,high,,CH3,3.0,False
+dimethylformamide,163.1,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,161.6,164.6,,amide carbonyl,C,163.1,sp2,C3H7NO,CN(C)C=O,curated_literature_typical,high,,quaternary,0.0,False
+dimethylformamide,35.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,34.3,37.3,,N-CH3 rotamer A,C,35.8,sp3,C3H7NO,CN(C)C=O,curated_literature_typical,high,,CH3,3.0,False
+dimethylformamide,30.1,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,28.6,31.6,,N-CH3 rotamer B,C,30.1,sp3,C3H7NO,CN(C)C=O,curated_literature_typical,high,,CH3,3.0,False
+dioxane,67.0,1.0,0,13C,,4,s,decoupled,False,False,CDCl3,25,65.5,68.5,,O-CH2,C,67.0,sp3,C4H8O2,O1CCOCC1,curated_literature_typical,high,,CH2,2.0,False
+ethanol,58.3,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,56.8,59.8,,CH2-O,C,58.3,sp3,C2H6O,CCO,curated_literature_typical,high,,CH2,2.0,False
+ethanol,18.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,16.9,19.9,,alkyl CH3,C,18.4,sp3,C2H6O,CCO,curated_literature_typical,high,,CH3,3.0,False
+ethyl_acetate,170.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,169.3,172.3,,ester carbonyl,C,170.8,sp2,C4H8O2,CCOC(=O)C,curated_literature_typical,high,,quaternary,0.0,False
+ethyl_acetate,60.3,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,58.8,61.8,,O-CH2,C,60.3,sp3,C4H8O2,CCOC(=O)C,curated_literature_typical,high,,CH2,2.0,False
+ethyl_acetate,20.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,19.3,22.3,,acetyl CH3,C,20.8,sp3,C4H8O2,CCOC(=O)C,curated_literature_typical,high,,CH3,3.0,False
+ethyl_acetate,14.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,12.7,15.7,,terminal CH3,C,14.2,sp3,C4H8O2,CCOC(=O)C,curated_literature_typical,high,,CH3,3.0,False
+ethylbenzene,144.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,143.0,146.0,,ipso aromatic C,C,144.5,sp2,C8H10,CCc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+ethylbenzene,128.5,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.0,130.0,,ortho aromatic CH,C,128.5,sp2,C8H10,CCc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+ethylbenzene,127.9,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,126.4,129.4,,meta aromatic CH,C,127.9,sp2,C8H10,CCc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+ethylbenzene,125.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,124.2,127.2,,para aromatic CH,C,125.7,sp2,C8H10,CCc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+ethylbenzene,28.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,27.2,30.2,,benzylic CH2,C,28.7,sp3,C8H10,CCc1ccccc1,curated_literature_typical,high,,CH2,2.0,False
+ethylbenzene,15.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,14.1,17.1,,terminal CH3,C,15.6,sp3,C8H10,CCc1ccccc1,curated_literature_typical,high,,CH3,3.0,False
+formic_acid,171.0,1.0,0,13C,,1,s,decoupled,False,False,DMSO-d6,25,169.5,172.5,,formyl carbon of carboxylic acid,C,171.0,sp2,CH2O2,O=CO,curated_literature_typical,high,,CH,1.0,False
+furan,142.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,141.2,144.2,,alpha furan CH,C,142.7,sp2,C4H4O,o1cccc1,curated_literature_typical,high,,CH,1.0,False
+furan,110.5,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,109.0,112.0,,beta furan CH,C,110.5,sp2,C4H4O,o1cccc1,curated_literature_typical,high,,CH,1.0,False
+hexane,31.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,30.2,33.2,,internal CH2,C,31.7,sp3,C6H14,CCCCCC,curated_literature_typical,high,,CH2,2.0,False
+hexane,22.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,21.2,24.2,,beta CH2,C,22.7,sp3,C6H14,CCCCCC,curated_literature_typical,high,,CH2,2.0,False
+hexane,14.1,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,12.6,15.6,,terminal CH3,C,14.1,sp3,C6H14,CCCCCC,curated_literature_typical,high,,CH3,3.0,False
+isopropanol,67.0,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,65.5,68.5,,CHOH carbon,C,67.0,sp3,C3H8O,CC(O)C,curated_literature_typical,high,,CH,1.0,False
+isopropanol,24.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,23.2,26.2,,isopropyl CH3,C,24.7,sp3,C3H8O,CC(O)C,curated_literature_typical,high,,CH3,3.0,False
+mesitylene,137.4,1.0,0,13C,,3,s,decoupled,False,False,CDCl3,25,135.9,138.9,,ipso aromatic C,C,137.4,sp2,C9H12,Cc1cc(C)cc(C)c1,curated_literature_typical,high,,quaternary,0.0,False
+mesitylene,128.9,1.0,0,13C,,3,s,decoupled,False,False,CDCl3,25,127.4,130.4,,aromatic CH,C,128.9,sp2,C9H12,Cc1cc(C)cc(C)c1,curated_literature_typical,high,,CH,1.0,False
+mesitylene,21.1,1.0,0,13C,,3,s,decoupled,False,False,CDCl3,25,19.6,22.6,,aryl CH3,C,21.1,sp3,C9H12,Cc1cc(C)cc(C)c1,curated_literature_typical,high,,CH3,3.0,False
+methanol,49.0,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,47.5,50.5,,O-CH3,C,49.0,sp3,CH4O,CO,curated_literature_typical,high,,CH3,3.0,False
+methyl_acetate,170.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,169.2,172.2,,ester carbonyl,C,170.7,sp2,C3H6O2,COC(=O)C,curated_literature_typical,high,,quaternary,0.0,False
+methyl_acetate,51.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,50.1,53.1,,O-CH3,C,51.6,sp3,C3H6O2,COC(=O)C,curated_literature_typical,high,,CH3,3.0,False
+methyl_acetate,20.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,19.3,22.3,,acetyl CH3,C,20.8,sp3,C3H6O2,COC(=O)C,curated_literature_typical,high,,CH3,3.0,False
+methyl_benzoate,167.0,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,165.5,168.5,,ester carbonyl,C,167.0,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+methyl_benzoate,133.3,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,131.8,134.8,,para aromatic CH,C,133.3,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+methyl_benzoate,131.3,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,129.8,132.8,,ipso aromatic C,C,131.3,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+methyl_benzoate,129.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,128.2,131.2,,ortho aromatic CH,C,129.7,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+methyl_benzoate,128.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.3,130.3,,meta aromatic CH,C,128.8,sp2,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+methyl_benzoate,52.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,50.7,53.7,,O-CH3,C,52.2,sp3,C8H8O2,COC(=O)c1ccccc1,curated_literature_typical,high,,CH3,3.0,False
+methyl_formate,160.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,159.3,162.3,,formate carbonyl carbon,C,160.8,sp2,C2H4O2,COC=O,curated_literature_typical,high,,CH,1.0,False
+methyl_formate,53.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,51.9,54.9,,O-CH3,C,53.4,sp3,C2H4O2,COC=O,curated_literature_typical,high,,CH3,3.0,False
+nitrobenzene,148.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,147.1,150.1,,ipso C-NO2,C,148.6,sp2,C6H5NO2,O=[N+]([O-])c1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+nitrobenzene,134.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,133.0,136.0,,para aromatic CH,C,134.5,sp2,C6H5NO2,O=[N+]([O-])c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+nitrobenzene,129.4,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.9,130.9,,ortho aromatic CH,C,129.4,sp2,C6H5NO2,O=[N+]([O-])c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+nitrobenzene,123.6,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,122.1,125.1,,meta aromatic CH,C,123.6,sp2,C6H5NO2,O=[N+]([O-])c1ccccc1,curated_literature_typical,high,,CH,1.0,False
+nitromethane,62.9,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,61.4,64.4,,CH3-NO2,C,62.9,sp3,CH3NO2,C[N+](=O)[O-],curated_literature_typical,high,,CH3,3.0,False
+p_xylene,137.1,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,135.6,138.6,,ipso aromatic C,C,137.1,sp2,C8H10,Cc1ccc(C)cc1,curated_literature_typical,high,,quaternary,0.0,False
+p_xylene,129.2,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.7,130.7,,ortho aromatic CH,C,129.2,sp2,C8H10,Cc1ccc(C)cc1,curated_literature_typical,high,,CH,1.0,False
+p_xylene,129.0,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.5,130.5,,meta aromatic CH,C,129.0,sp2,C8H10,Cc1ccc(C)cc1,curated_literature_typical,high,,CH,1.0,False
+p_xylene,125.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,124.1,127.1,,para aromatic CH,C,125.6,sp2,C8H10,Cc1ccc(C)cc1,curated_literature_typical,high,,CH,1.0,False
+p_xylene,21.2,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,19.7,22.7,,aryl CH3,C,21.2,sp3,C8H10,Cc1ccc(C)cc1,curated_literature_typical,high,,CH3,3.0,False
+phenol,155.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,154.1,157.1,,ipso C-O,C,155.6,sp2,C6H6O,Oc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+phenol,129.6,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,128.1,131.1,,meta aromatic CH,C,129.6,sp2,C6H6O,Oc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+phenol,121.0,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,119.5,122.5,,para aromatic CH,C,121.0,sp2,C6H6O,Oc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+phenol,115.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,114.2,117.2,,ortho aromatic CH,C,115.7,sp2,C6H6O,Oc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+propanoic_acid,180.1,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,178.6,181.6,,carboxylic acid carbonyl,C,180.1,sp2,C3H6O2,CCC(=O)O,curated_literature_typical,high,,quaternary,0.0,False
+propanoic_acid,30.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,28.9,31.9,,CH2 alpha to carboxyl,C,30.4,sp3,C3H6O2,CCC(=O)O,curated_literature_typical,high,,CH2,2.0,False
+propanoic_acid,9.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,7.9,10.9,,terminal CH3,C,9.4,sp3,C3H6O2,CCC(=O)O,curated_literature_typical,high,,CH3,3.0,False
+propanol,63.1,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,61.6,64.6,,CH2-O,C,63.1,sp3,C3H8O,CCCO,curated_literature_typical,high,,CH2,2.0,False
+propanol,22.7,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,21.2,24.2,,middle CH2,C,22.7,sp3,C3H8O,CCCO,curated_literature_typical,high,,CH2,2.0,False
+propanol,10.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,9.0,12.0,,terminal CH3,C,10.5,sp3,C3H8O,CCCO,curated_literature_typical,high,,CH3,3.0,False
+pyridine,150.1,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,148.6,151.6,,C2/C6,C,150.1,sp2,C5H5N,n1ccccc1,curated_literature_typical,high,,CH,1.0,False
+pyridine,136.4,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,134.9,137.9,,C4,C,136.4,sp2,C5H5N,n1ccccc1,curated_literature_typical,high,,CH,1.0,False
+pyridine,123.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,122.3,125.3,,C3/C5,C,123.8,sp2,C5H5N,n1ccccc1,curated_literature_typical,high,,CH,1.0,False
+styrene,136.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,135.3,138.3,,ipso aromatic C,C,136.8,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+styrene,136.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,135.0,138.0,,vinyl CH,C,136.5,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+styrene,128.5,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.0,130.0,,ortho aromatic CH,C,128.5,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+styrene,128.1,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,126.6,129.6,,meta aromatic CH,C,128.1,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+styrene,126.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,124.7,127.7,,para aromatic CH,C,126.2,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+styrene,114.1,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,112.6,115.6,,vinyl CH2,C,114.1,sp2,C8H8,C=Cc1ccccc1,curated_literature_typical,high,,CH2,2.0,False
+tert_butyl_methyl_ether,73.1,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,71.6,74.6,,tert-butyl quaternary carbon attached to O,C,73.1,sp3,C5H12O,COC(C)(C)C,curated_literature_typical,high,,quaternary,0.0,False
+tert_butyl_methyl_ether,48.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,47.0,50.0,,O-CH3,C,48.5,sp3,C5H12O,COC(C)(C)C,curated_literature_typical,high,,CH3,3.0,False
+tert_butyl_methyl_ether,28.0,1.0,0,13C,,3,s,decoupled,False,False,CDCl3,25,26.5,29.5,,tert-butyl CH3,C,28.0,sp3,C5H12O,COC(C)(C)C,curated_literature_typical,high,,CH3,3.0,False
+tetrahydrofuran,67.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,66.2,69.2,,O-CH2,C,67.7,sp3,C4H8O,C1CCOC1,curated_literature_typical,high,,CH2,2.0,False
+tetrahydrofuran,25.7,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,24.2,27.2,,beta CH2 to O,C,25.7,sp3,C4H8O,C1CCOC1,curated_literature_typical,high,,CH2,2.0,False
+thiophene,126.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,125.3,128.3,,alpha thiophene CH,C,126.8,sp2,C4H4S,s1cccc1,curated_literature_typical,high,,CH,1.0,False
+thiophene,124.8,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,123.3,126.3,,beta thiophene CH,C,124.8,sp2,C4H4S,s1cccc1,curated_literature_typical,high,,CH,1.0,False
+toluene,137.9,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,136.4,139.4,,ipso aromatic C,C,137.9,sp2,C7H8,Cc1ccccc1,curated_literature_typical,high,,quaternary,0.0,False
+toluene,129.3,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,127.8,130.8,,ortho aromatic CH,C,129.3,sp2,C7H8,Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+toluene,128.3,1.0,0,13C,,2,s,decoupled,False,False,CDCl3,25,126.8,129.8,,meta aromatic CH,C,128.3,sp2,C7H8,Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+toluene,125.6,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,124.1,127.1,,para aromatic CH,C,125.6,sp2,C7H8,Cc1ccccc1,curated_literature_typical,high,,CH,1.0,False
+toluene,21.2,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,19.7,22.7,,benzylic CH3,C,21.2,sp3,C7H8,Cc1ccccc1,curated_literature_typical,high,,CH3,3.0,False
+triethylamine,47.1,1.0,0,13C,,3,s,decoupled,False,False,CDCl3,25,45.6,48.6,,CH2-N,C,47.1,sp3,C6H15N,CCN(CC)CC,curated_literature_typical,high,,CH2,2.0,False
+triethylamine,8.6,1.0,0,13C,,3,s,decoupled,False,False,CDCl3,25,7.1,10.1,,terminal CH3,C,8.6,sp3,C6H15N,CCN(CC)CC,curated_literature_typical,high,,CH3,3.0,False
+trimethylamine,45.3,1.0,0,13C,,3,s,decoupled,False,False,CDCl3,25,43.8,46.8,,N-CH3,C,45.3,sp3,C3H9N,CN(C)C,curated_literature_typical,high,,CH3,3.0,False
+vinyl_acetate,169.3,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,167.8,170.8,,ester carbonyl,C,169.3,sp2,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,quaternary,0.0,False
+vinyl_acetate,140.0,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,138.5,141.5,,vinyl CH-OAc,C,140.0,sp2,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,CH,1.0,False
+vinyl_acetate,97.5,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,96.0,99.0,,vinyl CH2,C,97.5,sp3,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,CH2,2.0,False
+vinyl_acetate,20.8,1.0,0,13C,,1,s,decoupled,False,False,CDCl3,25,19.3,22.3,,acetyl CH3,C,20.8,sp3,C4H6O2,C=COC(=O)C,curated_literature_typical,high,,CH3,3.0,False
